@@ -1,0 +1,235 @@
+.shop_wrap {
+    width: 1360px;
+    margin: 50px auto;
+    text-align: center;
+}
+.shop_wrap>h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+.shop_wrap .house {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.shop_wrap .house>div {
+    width: 50%;
+    text-align: center;
+}
+.shop_wrap .house>div>p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.shop_wrap .house img {
+    width: 50%;
+}
+
+
+.shop_wrap .shin {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 200px;
+}
+.shop_wrap .shin>div {
+    width: 50%;
+    text-align: center;
+}
+.shop_wrap .shin img {
+    width: 50%;
+}
+.shop_wrap .shin>div>p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 170px;
+}
+
+
+
+
+.shop_wrap .depart {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.shop_wrap .depart>section {
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+}
+.shop_wrap .depart>section>div {
+    width: 50%;
+    font-size: 12px;
+}
+
+.shop_wrap .stock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+.shop_wrap .stock>div {
+    width: 15%;
+    font-size: 12px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.collection_title {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+.detail_page {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.detail_page .description {
+    width: 500px;
+    padding-left: 40px;
+}
+.detail_page .description .title {
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.detail_page .description>p:nth-child(2) {
+    font-weight: bold;
+}
+.detail_page .description>p:nth-child(4) {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 60px 0;
+}
+
+.detail_page .description>div>button {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+}
+.detail_page .description>div>button:first-child {
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+.shopping_bag {
+    display: flex;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.list_box {
+    width: 65%;
+}
+.list_box>p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.list_box .list {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 20px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.list_box .list>span:nth-child(2) {
+    width: 300px;
+    padding-left: 100px;
+}
+.list_box .list>span:nth-child(3) {
+    width: 250px;
+    padding-left: 50px;
+}
+.list_box .list .button_box>span {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+.list_box .list .button_box>button {
+    width: 30px;
+}
+
+.list_box .list>button {
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #999;
+    font-size: 13px;
+    background: none;
+}
+.list_box .list>button:hover {
+    color: black;
+}
+
+
+
+
+.common_width {
+    width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.common_width>p {
+    width: 100%;
+    text-align: center;
+}
+.common_width>p:first-child {
+    margin-top: 70px;
+}
+.common_width .seller {
+    margin-bottom: 30px;
+}
+.common_width .set {
+    margin-bottom: 50px;
+}
+.common_width>div {
+    width: 340px;
+    height: 550px;
+}
+.common_width>h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.common_width>h4 {
+    width: 100%;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.common_width>div>div>div>p {
+    height: 18px;
+}
